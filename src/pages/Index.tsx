@@ -37,6 +37,16 @@ const Index = () => {
         >
           Até breve.
         </motion.p>
+
+        <motion.p
+          className="mt-4 text-[10px] sm:text-xs text-page-foreground/70 font-pixel tracking-wider max-w-[12rem] sm:max-w-[18rem] md:max-w-[24rem] leading-relaxed"
+          {...fadeUp(1.8)}
+        >
+          Se não puder esperar, entre em contato no{" "}
+          <a href="mailto:contato@faradays.io" className="underline hover:text-page-foreground">
+            contato@faradays.io
+          </a>
+        </motion.p>
       </div>
 
       <ElectricWire />
