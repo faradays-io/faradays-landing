@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# Faradays Landing Page
 
-## Project info
+A minimalist "coming soon" landing page for **Faradays**, featuring a retro pixel-art aesthetic with animated electric wire effects.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Overview
 
-## How can I edit this code?
+The landing page serves as a teaser for the upcoming Faradays launch. It features a dark theme with pixelated typography (Press Start 2P), smooth entrance animations, and a custom canvas-based electric current animation at the bottom of the screen.
 
-There are several ways of editing your application.
+The page is written in Portuguese and includes a contact email for those who want to get in touch before launch.
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **React** + **TypeScript**
+- **Vite** (build tool + dev server)
+- **Tailwind CSS** (styling)
+- **Framer Motion** (animations)
+- **shadcn/ui** + **Radix UI** (component primitives)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Prerequisites: [Node.js](https://nodejs.org/) (v18+) and npm (or bun).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start dev server (port 8080)
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Command           | Description                  |
+| ----------------- | ---------------------------- |
+| `npm run dev`     | Start development server     |
+| `npm run build`   | Production build             |
+| `npm run preview` | Preview production build     |
+| `npm run lint`    | Run ESLint                   |
+| `npm run test`    | Run tests (Vitest)           |
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── pages/
+│   └── Index.tsx            # Main landing page
+├── components/
+│   ├── ElectricWire.tsx     # Canvas-based lightning animation
+│   ├── DotsCycle.tsx        # Animated dots effect
+│   └── SmileyPulse.tsx      # Pulsing smiley component
+├── styles/
+│   └── pixel.css            # Pixel-art frame styles
+├── App.tsx                  # Root component with routing
+└── main.tsx                 # Entry point
+```
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+All rights reserved.
