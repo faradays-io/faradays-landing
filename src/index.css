@@ -101,4 +101,9 @@
     -moz-osx-font-smoothing: unset;
     font-smooth: never;
   }
+
+  .font-pixel {
+    -webkit-text-stroke: 0.5px white;
+    text-shadow: 0 0 0 white;
+  }
 }

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import ElectricWire from "@/components/ElectricWire";
 import DotsCycle from "@/components/DotsCycle";
 import SmileyPulse from "@/components/SmileyPulse";
 
@@ -15,17 +14,22 @@ const fadeUp = (delay: number) => ({
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-page pt-20 pl-20">
-      <div className="text-left">
-        <motion.h1
-          className="font-pixel text-2xl sm:text-4xl md:text-5xl tracking-wide text-page-foreground"
-          {...fadeUp(0.2)}
-        >
-          Faradays
-        </motion.h1>
+    <div className="min-h-screen bg-page pt-20 pl-14 overflow-hidden">
+      <motion.div {...fadeUp(0.2)} style={{ marginLeft: "-56px", marginTop: "-240px" }}>
+        <video
+          src="/faradays-title.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-[520px] pointer-events-none"
+          style={{ mask: "radial-gradient(ellipse 85% 80% at 30% 50%, black 40%, transparent 100%)", WebkitMask: "radial-gradient(ellipse 85% 80% at 30% 50%, black 40%, transparent 100%)" }}
+        />
+      </motion.div>
 
+      <div className="text-left mt-6" style={{ fontSize: "105%", marginTop: "-145px", marginLeft: -17, position: "relative", zIndex: 10 }}>
         <motion.p
-          className="mt-6 text-xs sm:text-sm font-pixel text-page-foreground/70 tracking-wide"
+          className="text-xs sm:text-sm font-pixel text-page-foreground/70 tracking-wide"
           {...fadeUp(0.8)}
         >
           Hello, world<DotsCycle />&nbsp; <SmileyPulse />
@@ -48,8 +52,6 @@ const Index = () => {
           </a>
         </motion.p>
       </div>
-
-      <ElectricWire />
     </div>
   );
 };
