@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite:*)",
+      "Bash(npx sharp-cli:*)",
+      "Bash(python3 -c \"from PIL import Image; img=Image.open\\(r''C:\\\\Users\\\\Aventis\\\\OneDrive - Aventis Asset\\\\Documentos\\\\faradays\\\\faradays-landing\\\\public\\\\favicon.png''\\); print\\(img.size\\)\")",
+      "Bash(python -c \"from PIL import Image; img=Image.open\\(r''C:\\\\Users\\\\Aventis\\\\OneDrive - Aventis Asset\\\\Documentos\\\\faradays\\\\faradays-landing\\\\public\\\\favicon.png''\\); print\\(img.size\\)\")",
+      "Bash(python3:*)",
+      "Bash(ls C:UsersAventisPicturesChatGPT*)",
+      "Bash(ls C:UsersAventisPictures/*ChatGPT*)",
+      "Bash(gh pr:*)",
+      "Bash(where gh:*)"
+    ]
+  }
+}
