@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 @import './styles/pixel.css';
 
 @tailwind base;
@@ -92,18 +92,17 @@
 @layer base {
   * {
     @apply border-border;
-    image-rendering: pixelated;
+    image-rendering: auto;
   }
 
   body {
     @apply bg-background text-foreground;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: unset;
-    font-smooth: never;
+    font-family: 'Lexend Deca', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   .font-pixel {
-    -webkit-text-stroke: 0.5px white;
-    text-shadow: 0 0 0 white;
+    font-family: 'Lexend Deca', sans-serif;
   }
 }

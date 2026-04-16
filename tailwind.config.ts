@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        pixel: ['"Press Start 2P"', 'monospace'],
+        pixel: ['"Lexend Deca"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

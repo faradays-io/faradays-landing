@@ -9,7 +9,15 @@
       "Bash(ls C:UsersAventisPicturesChatGPT*)",
       "Bash(ls C:UsersAventisPictures/*ChatGPT*)",
       "Bash(gh pr:*)",
-      "Bash(where gh:*)"
+      "Bash(where gh:*)",
+      "Bash(command -v node)",
+      "Bash(command -v npm)",
+      "Read(//c/Users/manut/AppData/Local/**)",
+      "Read(//c/Users/manut/**)",
+      "Read(//c/Users/manut/AppData/Roaming/**)",
+      "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(ls node_modules/.bin/vite*)",
+      "Bash(npm install:*)"
     ]
   }
 }
