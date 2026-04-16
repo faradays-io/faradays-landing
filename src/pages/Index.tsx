@@ -15,7 +15,7 @@ const fadeUp = (delay: number) => ({
 const Index = () => {
   return (
     <div className="min-h-screen bg-page pt-20 pl-14 overflow-hidden">
-      <motion.div {...fadeUp(0.2)} style={{ marginLeft: "-56px", marginTop: "-240px" }}>
+      <motion.div {...fadeUp(0.2)}>
         <img
           src="/faradays-dark.png"
           alt="Faradays"
@@ -23,7 +23,7 @@ const Index = () => {
         />
       </motion.div>
 
-      <div className="text-left mt-6" style={{ fontSize: "105%", marginTop: "-145px", marginLeft: -17, position: "relative", zIndex: 10 }}>
+      <div className="text-left mt-6" style={{ fontSize: "105%", position: "relative", zIndex: 10 }}>
         <motion.p
           className="text-xs sm:text-sm font-pixel text-page-foreground/70 tracking-wide"
           {...fadeUp(0.8)}
