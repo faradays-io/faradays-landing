@@ -16,14 +16,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-page pt-20 pl-14 overflow-hidden">
       <motion.div {...fadeUp(0.2)} style={{ marginLeft: "-56px", marginTop: "-240px" }}>
-        <video
-          src="/faradays-title.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="/faradays-dark.png"
+          alt="Faradays"
           className="w-[520px] pointer-events-none"
-          style={{ mask: "radial-gradient(ellipse 85% 80% at 30% 50%, black 40%, transparent 100%)", WebkitMask: "radial-gradient(ellipse 85% 80% at 30% 50%, black 40%, transparent 100%)" }}
         />
       </motion.div>
 
