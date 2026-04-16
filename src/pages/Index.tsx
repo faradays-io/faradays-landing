@@ -14,12 +14,12 @@ const fadeUp = (delay: number) => ({
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-page pt-20 pl-14 overflow-hidden">
+    <div className="min-h-screen bg-page pt-6 pl-6 overflow-hidden">
       <motion.div {...fadeUp(0.2)}>
         <img
           src="/faradays-dark.png"
           alt="Faradays"
-          className="w-[520px] pointer-events-none"
+          className="w-[360px] pointer-events-none"
         />
       </motion.div>
 
