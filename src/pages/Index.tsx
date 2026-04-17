@@ -17,7 +17,7 @@ const Index = () => {
     <div className="min-h-screen bg-page pt-0 pl-0 overflow-hidden">
       <motion.div {...fadeUp(0.2)}>
         <img
-          src="/faradays-dark.png"
+          src="/faradays-logo-bright.png"
           alt="Faradays"
           className="w-[360px] pointer-events-none"
         />
@@ -25,21 +25,21 @@ const Index = () => {
 
       <div className="text-left -mt-2 pl-[52px]" style={{ fontSize: "105%", position: "relative", zIndex: 10 }}>
         <motion.p
-          className="text-xs sm:text-sm font-pixel text-page-foreground/70 tracking-wide"
+          className="text-sm sm:text-base font-pixel text-page-foreground/70 tracking-wide"
           {...fadeUp(0.8)}
         >
           Hello, world<DotsCycle />&nbsp; <SmileyPulse />
         </motion.p>
 
         <motion.p
-          className="mt-8 text-[10px] sm:text-xs text-page-foreground/40 font-pixel tracking-wider"
+          className="mt-8 text-xs sm:text-sm text-page-foreground/40 font-pixel tracking-wider"
           {...fadeUp(1.4)}
         >
           Até breve.
         </motion.p>
 
         <motion.p
-          className="mt-4 text-[10px] sm:text-xs text-page-foreground/70 font-pixel tracking-wider max-w-[12rem] sm:max-w-[18rem] md:max-w-[24rem] leading-relaxed"
+          className="mt-4 text-xs sm:text-sm text-page-foreground/70 font-pixel tracking-wider max-w-[14rem] sm:max-w-[20rem] md:max-w-[26rem] leading-relaxed"
           {...fadeUp(1.8)}
         >
           Se não puder esperar, entre em contato no{" "}
