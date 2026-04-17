@@ -23,7 +23,7 @@ const Index = () => {
         />
       </motion.div>
 
-      <div className="text-left -mt-2 pl-[52px]" style={{ fontSize: "105%", position: "relative", zIndex: 10 }}>
+      <div className="text-left -mt-2 pl-[52px]" style={{ fontSize: "210%", position: "relative", zIndex: 10 }}>
         <motion.p
           className="text-sm sm:text-base font-pixel text-page-foreground/70 tracking-wide"
           {...fadeUp(0.8)}
