@@ -17,7 +17,18 @@
       "Read(//c/Users/manut/AppData/Roaming/**)",
       "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
       "Bash(ls node_modules/.bin/vite*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(python -c \"from PIL import Image; img=Image.open\\(r'C:/Users/manut/Documents/faradays-landing/public/favicon.png'\\); print\\(img.size, img.mode\\)\")",
+      "Bash(where bun *)",
+      "Bash(bun --version)",
+      "Read(//c/Program Files/**)",
+      "Bash(powershell -NoProfile -Command 'Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('\\\\''C:\\\\Users\\\\manut\\\\Documents\\\\faradays-landing\\\\public\\\\favicon.png'\\\\''\\); Write-Host $img.Width '\\\\''x'\\\\'' $img.Height; $img.Dispose\\(\\)')",
+      "Bash(powershell -NoProfile -Command ' *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(powershell -NoProfile -Command \"Get-Command gh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell -NoProfile -Command 'Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('\\\\''C:\\\\Users\\\\manut\\\\Documents\\\\faradays-landing\\\\public\\\\faradays-dark.png'\\\\''\\); Write-Host $img.Width '\\\\''x'\\\\'' $img.Height; $img.Dispose\\(\\)')",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:/Users/manut/Documents/faradays-landing/.claude/tmp_segments.ps1\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:/Users/manut/Documents/faradays-landing/.claude/tmp_pixels.ps1\")"
     ]
   }
 }
