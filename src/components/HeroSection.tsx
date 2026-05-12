@@ -74,7 +74,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[var(--muted-color)] max-w-[56ch]" style={{ fontSize: "clamp(16px, 1.4vw, 19px)", textWrap: "pretty" as any }}>
-            Desenhamos e entregamos automações em um dashboard customizado, que reduzem custo, aceleram a operação e destravam crescimento. Imlementamos sua primeira demo em questão de dias. 
+            Desenhamos e entregamos automações em um dashboard customizado, que reduzem custo, aceleram a operação e destravam crescimento. Implementamos sua primeira demo em questão de dias. 
           </p>
 
           <div className="flex gap-3.5 flex-wrap mt-4">
