@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import logo from "@/assets/faradays-logo.png";
+import { scrollToSection } from "@/lib/smoothScroll";
 
 const ArrowIcon = () => (
   <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-[3px]">
@@ -29,7 +30,7 @@ const Navbar = () => {
       }}
     >
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,40px)] flex items-center justify-between h-[72px]">
-        <a href="#" className="inline-flex items-center gap-2.5" aria-label="Faradays">
+        <a href="#" onClick={scrollToSection("")} className="inline-flex items-center gap-2.5" aria-label="Faradays">
           <img src={logo} alt="Faradays" className="h-7 w-auto block" />
         </a>
 
@@ -37,6 +38,7 @@ const Navbar = () => {
 
         <a
           href="#agendar"
+          onClick={scrollToSection("agendar")}
           className="group hidden md:inline-flex items-center gap-2.5 px-4 py-2.5 text-[13px] font-medium rounded-full border border-[var(--line)] text-[var(--ink)] bg-transparent hover:border-[var(--ink)] transition-all whitespace-nowrap"
         >
           Agende um diagnóstico gratuito

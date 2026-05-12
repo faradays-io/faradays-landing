@@ -1,3 +1,5 @@
+import { scrollToSection } from "@/lib/smoothScroll";
+
 const ArrowIcon = () => (
   <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-[3px]">
     <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
@@ -18,7 +20,7 @@ const CtaSection = () => {
             Uma conversa objetiva, sem compromisso. Saímos dela com um plano de ação claro e priorizado para o seu negócio.
           </p>
 
-          <a href="#" className="group inline-flex items-center gap-2.5 self-start mt-6 px-[22px] py-3.5 text-sm font-medium rounded-full bg-white text-[var(--ink)] border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
+          <a href="#" onClick={scrollToSection("")} className="group inline-flex items-center gap-2.5 self-start mt-6 px-[22px] py-3.5 text-sm font-medium rounded-full bg-white text-[var(--ink)] border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
             Agende um diagnóstico gratuito
             <ArrowIcon />
           </a>

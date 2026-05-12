@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { scrollToSection } from "@/lib/smoothScroll";
 
 const ArrowIcon = () => (
   <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-[3px]">
@@ -77,11 +78,11 @@ const HeroSection = () => {
           </p>
 
           <div className="flex gap-3.5 flex-wrap mt-4">
-            <a href="#agendar" className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-[var(--ink)] text-white border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
+            <a href="#agendar" onClick={scrollToSection("agendar")} className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-[var(--ink)] text-white border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
               Agende um diagnóstico gratuito
               <ArrowIcon />
             </a>
-            <a href="#como" className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-transparent text-[var(--ink)] border border-[var(--line)] hover:border-[var(--ink)] transition-all whitespace-nowrap">
+            <a href="#como" onClick={scrollToSection("como")} className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-transparent text-[var(--ink)] border border-[var(--line)] hover:border-[var(--ink)] transition-all whitespace-nowrap">
               Como atuamos
             </a>
           </div>
