@@ -37,8 +37,9 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-7 text-sm text-[var(--muted-color)]" aria-label="Primário" />
 
         <a
-          href="#agendar"
-          onClick={scrollToSection("agendar")}
+          href="https://cal.com/elymansur/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group hidden md:inline-flex items-center gap-2.5 px-4 py-2.5 text-[13px] font-medium rounded-full border border-[var(--line)] text-[var(--ink)] bg-transparent hover:border-[var(--ink)] transition-all whitespace-nowrap"
         >
           Agende um diagnóstico gratuito
