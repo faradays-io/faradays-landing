@@ -78,7 +78,7 @@ const HeroSection = () => {
           </p>
 
           <div className="flex gap-3.5 flex-wrap mt-4">
-            <a href="https://cal.com/elymansur/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-[var(--ink)] text-white border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
+            <a href="https://cal.com/elymansur/45min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 px-[22px] py-3.5 text-sm font-medium rounded-full bg-[var(--ink)] text-white border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
               Agende um diagnóstico gratuito
               <ArrowIcon />
             </a>

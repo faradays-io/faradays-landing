@@ -18,7 +18,7 @@ const CtaSection = () => {
             Uma conversa objetiva, sem compromisso. Saímos dela com um plano de ação claro e priorizado para o seu negócio.
           </p>
 
-          <a href="https://cal.com/elymansur/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 self-start mt-6 px-[22px] py-3.5 text-sm font-medium rounded-full bg-white text-[var(--ink)] border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
+          <a href="https://cal.com/elymansur/45min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 self-start mt-6 px-[22px] py-3.5 text-sm font-medium rounded-full bg-white text-[var(--ink)] border border-transparent hover:bg-[oklch(0.82_0.12_90)] hover:text-[var(--ink)] hover:border-[oklch(0.82_0.12_90)] transition-all whitespace-nowrap">
             Agende um diagnóstico gratuito
             <ArrowIcon />
           </a>
